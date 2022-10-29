@@ -1,0 +1,32 @@
+html {
+    background-color: slategray;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.leaves {
+    width: 500px;
+    height: 800px;
+}
+
+.header {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.659);
+    height: 400px;
+    width: 1000px;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-left: 40px;
+    width: 900px;
+}
