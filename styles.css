@@ -152,3 +152,15 @@ button:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+mark.head-ital { /* changes fonts in header to italic */
+    background-color: cornflowerblue;
+    font-style:italic;
+}
+
+mark.sub-ital { /* changes fonts in header to italic */
+    background-color: cornflowerblue;
+    font-style:italic;
+    margin-left: 8px;
+    margin-right: 8px;
+}
