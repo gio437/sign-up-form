@@ -10,15 +10,34 @@ body {
     display: flex;
 }
 
-.leaves {
-    width: 500px;
-    height: 800px;
+.pictures .leaves {
+    width: 550px;
+    height: 900px;
 }
+
+.pictures .overlay {
+    position: absolute;
+    top: 230px;
+    left: 300px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    font-family: cursive, sans-serif;
+  }
+
+.pictures .odin {
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    width: 200px; /* you can use % */
+    height: 250px;
+  }
 
 .header {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.659);
-    height: 400px;
+    flex-direction: column;
+    background-color: grey;
+    height: 420px;
     width: 1000px;
 }
 
@@ -29,4 +48,26 @@ body {
     font-size: 35px;
     margin-left: 40px;
     width: 900px;
+    height: 600px;
+    margin-top: 190px;
+}
+
+.know {
+    display: flex;
+    font-size: 35px;
+    margin-left: 40px;
+    width: 900px;
+    height: 700px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.middle {
+    background-color: aliceblue;
+}
+
+.middle-head {
+    font-size: 35px;
+    margin-left: 40px;
+    margin-top: 30px;
 }
