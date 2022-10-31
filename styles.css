@@ -84,6 +84,7 @@ body {
 
 .middle {
     background-color: aliceblue;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 .middle-head {
@@ -122,6 +123,30 @@ body {
     color: gray;
 }
 
+.first :focus {
+    border-style:hidden;
+    border-color: blue;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.email :focus{
+    border-style: hidden;
+    border-color: blue;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.pass :focus{
+    border-style: hidden;
+    border-color: blue;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.confirm-pass :focus {
+    border-style: hidden;
+    border-color: blue;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
 .account {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -153,14 +178,14 @@ button:active {
   transform: translateY(4px);
 }
 
-mark.head-ital { /* changes fonts in header to italic */
-    background-color: cornflowerblue;
-    font-style:italic;
-}
-
 mark.sub-ital { /* changes fonts in header to italic */
     background-color: cornflowerblue;
     font-style:italic;
     margin-left: 8px;
     margin-right: 8px;
+}
+
+.account :invalid {
+    border-style: hidden;
+    border-color: red;
 }
